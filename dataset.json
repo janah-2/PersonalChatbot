@@ -1,0 +1,73 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["hi", "how are you?", "hello", "good day", "what's up?", "hey"],
+     "responses": ["Hello!", "Good to see you!", "Hi there", "Hi there, how can I help you?"],
+     "context_set": ""
+    },
+    {"tag": "exit",
+     "patterns": ["see you later", "bye", "quit", "exit", "talk to you later", "goodnight!", "goodbye"],
+     "responses": ["Sad to see you go :(", "Bye!", "See you later!", "Bye! Talk to you later!", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old are you?", "how old is janah?"],
+     "responses": ["I am 18 years old!", "18 years old", "I'm 18 years old"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name?", "whats your name", "what should I call you?"],
+     "responses": ["My name is Janah", "You can call me Janah!", "I'm Janah the bot"],
+     "context_set": ""
+    },
+    {"tag": "questions_1",
+     "patterns": ["When did you start coding?", "how long have you been coding?", "How well do you code?"],
+     "responses": ["I started coding at age 17, so I have been coding for about 1 year"],
+     "context_set": ""
+    },
+    {"tag": "questions_2",
+     "patterns": ["What are your hobbies?", "what do you like to do?"],
+     "responses": ["My hobbies include: programming, with my favorite language currently being python, investing, and helping people", "I mostly enjoy programming and helping people", "I have great passion for programming"],
+     "context_set": ""
+    },
+    {"tag": "questions_3",
+        "patterns": ["What are your weaknesses?", "what is a weakness of yours?"],
+        "responses": ["I overwork myself often", "I often spend too much time planning ahead", "I focus too much on the details", "I may lack confidence when around people I don't know"],
+        "context_set": ""
+    },
+    {"tag": "questions_4",
+        "patterns": ["what are your strengths"],
+        "responses": ["I'm trustworthy, dedicated, determined, and have good research skills", "I'm resourceful and a team player"],
+        "context_set": ""
+    },
+    {"tag": "questions_5",
+        "patterns": ["Tell me about yourself"],
+        "responses": ["What would you like to know?", "You may check the profile section of my resume :)"],
+        "context_set": ""
+    },
+    {"tag": "questions_6",
+        "patterns": ["Where do you study?", "Where do you school?", "Where do you go for university?"],
+        "responses": ["I currently study computer engineering in Georgia Tech. Go Yellow Jackets!"],
+        "context_set": ""
+    },
+    {"tag": "questions_7",
+        "patterns": ["Where do you live?", "where do you reside?"],
+        "responses": ["I currently live in Atlanta, Georgia"],
+        "context_set": ""
+    },
+    {"tag": "questions_8",
+        "patterns": ["Where did you grow up?", "where did you live before coming to the US"],
+        "responses": ["I am originally from Syria, but I grew up in Lagos, Nigeria"],
+        "context_set": ""
+    },
+    {"tag": "questions_9",
+        "patterns": ["What are your future goals?", "what are your goals"],
+        "responses": ["To be the best at what I do"],
+        "context_set": ""
+    },
+    {"tag": "questions_10",
+        "patterns": ["What are your contact information?", "how do we get in touch", "where did you school before Georgia Tech?", "What is your previous work experience?", "where did you work before", "what was your first job", "what are some programming projects you have done?", "what are you skills?", "name some of your skills", "what are some fun facts about you?", "what are some awards you've won?", "what are some activities you have been a part of?"],
+        "responses": ["Please check my resume for that information"],
+        "context_set": ""
+    }
+  ]
+}
